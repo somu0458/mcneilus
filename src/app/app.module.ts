@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { DataTableComponent } from './data-table/data-table.component';
+import { TableComponent } from './table/table.component';
 // import { NgxBootstrapIconsModule } from 'ngx-bootstrap-icons';
 // import { allIcons } from 'ngx-bootstrap-icons';
 
@@ -15,7 +16,8 @@ import { DataTableComponent } from './data-table/data-table.component';
     AppComponent,
     HeaderComponent,
     SideNavComponent,
-    DataTableComponent
+    DataTableComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
